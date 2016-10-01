@@ -29,6 +29,13 @@ noremap <C-n> :nohl<CR>
 vnoremap <C-n> :nohl<CR>
 inoremap <C-n> :nohl<CR>
 
+" Toggle Nerdtree
+noremap <C-i> :NERDTreeToggle<CR>
+vnoremap <C-i> :NERDTreeToggle<CR>
+inoremap <C-i> :NERDTreeToggle<CR>
+
+" Toggle Plugins/Functions
+nnoremap <F5> :NERDTreeToggle<CR>
 
 " Quicksave command
 noremap <C-Z> :update<CR>

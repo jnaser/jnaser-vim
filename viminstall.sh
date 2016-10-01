@@ -69,6 +69,7 @@ git clone https://github.com/kien/ctrlp.vim.git
 git clone https://github.com/klen/python-mode
 git clone git://github.com/davidhalter/jedi-vim.git
 git clone git://github.com/tpope/vim-fugitive.git
+git clone https://github.com/scrooloose/nerdtree.gi
 
 vim -u NONE -c "helptags vim-fugitive/doc" -c q
 
@@ -85,6 +86,7 @@ wget -O ~/.vim/ftplugin/python_editing.vim http://www.vim.org/scripts/download_s
 echo "Getting Config..."
 scp jakob@192.168.178.57:~/.vimrc ~/
 
+echo "Configuring Plugins.."
 vim -u NONE -c "helptags vim-fugitive/doc" -c q
 
 echo "Installation is finished, please load your .vimrc file to ~/"
