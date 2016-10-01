@@ -1,13 +1,3 @@
-" Sample .vimrc file by Martin Brochhaus
-" Presented at PyCon APAC 2012
-
-
-" ============================================
-" Note to myself:
-" DO NOT USE <C-z> FOR SAVING WHEN PRESENTING!
-" ============================================
-
-
 " Automatic reloading of .vimrc
 autocmd! bufwritepost .vimrc source %
 
@@ -137,8 +127,8 @@ set noswapfile
 
 
 " Setup Pathogen to manage your plugins
-" mkdir -p ~/.vim/autoload ~/.vim/bundle
-" curl -so ~/.vim/autoload/pathogen.vim https://raw.githubusercontent.com/tpope/vim-pathogen/master/autoload/pathogen.vim
+" mkdir -p ~/.vim/autoload ~/.vim/bundle && curl -LSso
+" ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 " Now you can install any plugin into a .vim/bundle/plugin-name/ folder
 set nocp
 call pathogen#infect()
