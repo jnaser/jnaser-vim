@@ -79,10 +79,6 @@ echo "Installing Ftplugin..."
 mkdir -p ~/.vim/ftplugin
 wget -O ~/.vim/ftplugin/python_editing.vim http://www.vim.org/scripts/download_script.php?src_id=5492
 
-echo "Installing Tmux..."
-
-sudo apt-get install tmux
-
 echo "Getting Config..."
 scp jakob@192.168.178.57:~/.vimrc ~/
 
