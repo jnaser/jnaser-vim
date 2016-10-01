@@ -52,7 +52,10 @@ map <c-h> <c-w>h
 " easier moving between tabs
 map <Leader>n <esc>:tabprevious<CR>
 map <Leader>m <esc>:tabnext<CR>
+map <Leader>t <esc>:tabnew<CR>
 
+" creating tabs"
+nnoremap tn :tabnew<Space>
 
 " map sort function to a key
 vnoremap <Leader>s :sort<CR>
