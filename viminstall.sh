@@ -84,7 +84,7 @@ mkdir -p ~/.vim/ftplugin
 wget -O ~/.vim/ftplugin/python_editing.vim http://www.vim.org/scripts/download_script.php?src_id=5492
 
 echo "Getting Config..."
-scp jakob@192.168.178.57:~/.vimrc ~/
+wget -P ~/ https://github.com/jnaser/jnaser-vim/blob/master/.vimrc
 
 echo "Configuring Plugins.."
 vim -u NONE -c "helptags vim-fugitive/doc" -c q
